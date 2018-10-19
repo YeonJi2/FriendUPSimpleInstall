@@ -5,11 +5,6 @@ Note that **this was designed to simplify installation**, so user won't get much
 
 Also, **FriendUP source directory will be located at where you run script from,** and FriendUP files will be built and installed under (FriendUP Source directory)/build.
 
-## About MySQL/MariaDB setup
-The method that this script uses to set password **does work**, however, you won't be able to login to MySQL/MariaDB without sudo. And it seems like any password(including empty password) works(even if it's set) without login errors when sudo was used to access MySQL/MariaDB server. And as a result, PHPMyAdmin does not work.
-
-So, if you don't like these things, I don't recommand using this script.
-
 ## Tested environment
 This script was tested on Raspbian 2018/06/27 release.
 
